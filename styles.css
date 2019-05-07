@@ -1,0 +1,273 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #101413;
+    background-color: #c3e6fc;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #101413;
+}
+
+.my-name,
+.my-location {
+    background-color: skyblue;
+}
+
+.about-me {
+    background-color: skyblue;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+input,
+textarea,
+select,
+button {
+    width: 150px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.story h1 {
+    background-color: skyblue;
+}
+
+.story-body {
+    background-color: skyblue;
+}
+
+.story-body:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+    font-style: italic;
+}
+
+
+.balloon {
+    display: inline-block;
+    width: 120px;
+    height: 145px;
+    background: hsl(215, 50%, 65%);
+    border-radius: 80%;
+    position: relative;
+    box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
+    margin: 20px 30px;
+    transition: transform 0.5s ease;
+    z-index: 10;
+    animation: balloons 4s ease-in-out infinite;
+    transform-origin: bottom center;
+}
+
+@keyframes balloons {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(-4deg);
+    }
+
+    50% {
+        transform: translateY(-25px) rotate(4deg);
+    }
+}
+
+
+.balloon:before {
+    content: "▲";
+    font-size: 20px;
+    color: hsl(215, 30%, 50%);
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -12px;
+    z-index: -100;
+}
+
+.balloon:after {
+    display: inline-block;
+    top: 153px;
+    position: absolute;
+    height: 250px;
+    width: 1px;
+    margin: 0 auto;
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    background-color: skyblue;
+}
+
+legend {
+    font-size: 1.2rem;
+
+}
+
+.blog h1,
+.blog-body {
+    background-color: skyblue;
+}
+
+.blog-body:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #ffdb3a;
+    outline: inherit;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:focus {
+    font-family: cursive;
+    font-size: 100%;
+    background: #F2B705;
+    color: #116EFF;
+    font-weight: bolder;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* grids */
+main {
+    display: grid;
+}
+
+/* hero content */
+.content {
+    display: grid;
+}
+
+/* about content */
+.about-content {
+    display: grid;
+}
+
+/* gallery */
+.gallery {
+    display: grid;
+}
+
+
+figure {
+    display: grid;
+}
+
+/* article */
+article {
+    display: grid;
+}
+
+/* form container */
+.form-container {
+    display: grid;
+}
+
+/* footer */
+footer {
+    display: grid;
+}
+
+/* layout */
+/* mobile is the default layout*/
+/* tablet layout >=48rem (768px) */
+@media screen and (min-width: 48rem) {
+    .mobile-first {
+        display: none;
+    }
+
+    /* hero content */
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .content picture,
+    .content p,
+    .about-content {
+        grid-column: 2/3;
+    }
+
+    /* about content */
+    /* gallery */
+    figure {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        background-color: skyblue;
+    }
+
+    figcaption {
+        margin-left: 1rem;
+        grid-column: 2/2;
+    }
+
+    /* article */
+
+
+    article,
+    .form-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .story h1,
+    .story-body {
+        grid-column: 2/3;
+    }
+
+    .blog h1,
+    .blog-body {
+        grid-column: 2/3;
+    }
+
+    /* form */
+    form {
+        grid-column: 2/3;
+    }
+}
+
+/* wide screen layout >=64rem (1024px) */
+@media screen and (min-width: 64rem) {
+
+    /* hero content */
+    /* about content */
+    /* gallery */
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery h1 {
+        grid-column: 1/4;
+        font-weight: normal;
+    }
+
+    /* article */
+    /* form */
+}
