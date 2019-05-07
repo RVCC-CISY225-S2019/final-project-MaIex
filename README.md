@@ -1,28 +1,81 @@
-# Project 6
-## Mobile First Navigation Using Flex and JS
+#Web Development I
 
-The goal of this assignment is to add page navigation to your About Me page. To do this, your are going to merge code from the demo with your existing code. You will have to be careful that all links (including the links in the head tag) are there and work without error. You will also make sure that the merge is done without creating any code errors and without losing any content.
+##Final Project
 
-Once the merge is complete, you will be checking your About Me page with real mobile devices. To do this, make sure that the Settings page in your repo is set to use your Master as the GH Pages. See the below as an example.
+This project is an About Me page that adds in various styles learned throughout the course.  The About Me Page has been changed throughout the class as different projects and this is the final version.  The final project adds in additional styling to the project.
 
-![GH Pages](https://github.com/cynthiateeters/nav-demo/blob/master/readme-src/GitHubPagesMasterSource.png)
+1.Primary color for block elements: skyblue.
+2.Secondary color for block elements: Light-skyblue Hex (#) value and RGB #87CEEB RGB (135,206,235) 
+3.Font color: Black #c3e6fc RGB (195,230,252)  
+4.Display font family: Weight:bold Style: italic
+5.Body font family: Weight: normal Style: normal
+6.Headings h1 Font-family: Poppins. Font-size:100% Weight: bold Style: italic.
+7..Font-Family Rotobo Slab  Font-size:45px  Weight:bold Style: italics
+8..A profile picture with caption "Marc Ali"
+10.A gallery of 3 different pictures styled to be mobile-friendly.
+11. An original logo created and added into the header.
+12. A Drop Cap added for the first letter in the story and blog.
+13. A Blog about CSS Animation and an example of animated balloons.
+14. Submit button of a Form styled to change color and text when hovering over and click it.
+15. A Github icon next to the footer linking to my Github page.
+
+*These resources allowed me to complete this project.
+
+**https://codepen.io/JeffreyTaylor/pen/jzohC
+https://htmldog.com/techniques/dropcaps/
+https://thoughtbot.com/blog/css-animation-for-beginners
+https://www.w3schools.com/css/css3_animations.asp**
 
 
-You are going to have to download and add the files from your Project 5 into this repo. Then you'll edit your index.html and styles.css to make the required changes.  
 
-1. Download and unzip this nav-demo repo.
-2. In this nav-demo repo, rename index.html to index-demo.html. Also I suggest you delete my photo image files as they are no good for your P6 and they take up a lot of room.
-2. Download and unzip your completed and _perfect_ Project 5 repo. Merge the two repos into one.
-3. Make sure that the old P5 README.md file does not overwrite the P6 README.md.
-4. Look carefully at index-demo.html and index-shell.html to figure out how you are going to merge the navigation code into your index.html.
-5. Once you have it planned out, cut-n-paste between files to make your About Me have navigation. 
-6. The CSS files for the navigation is contained in the file css/nav-style.css. Leave it there and link to it in the head tag. Below that link, have a link to your styles.css file.
-7. Validate and beautify. REPEATEDLY!
-8. Make sure you have the master branch as the source to the public GH Pages (see above). Note that somethines it takes a few moments to get GH Pages synced to your repo when you are making changes.
-9. Test the public link from two different mobile devices and do screen grabs.
-10. Add those screen grab pictures to the folder called readme-src in this repo.
-11. Edit this repo and add the images to the bottom of this page so that they display like the GH Pages image you see above.
 
-**You are expected to do the Week 9 reading as preparation for this assignment. Also you must use our CSS formatting rules from the CISY 225 Style Guide.**
 
-**You Must Have a Perfect Project 5 Repo. Make all changes to P5 before starting this project. Your grade depends on this. If you need help, ask me for help.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://codepen.io/JeffreyTaylor/pen/jzohC
